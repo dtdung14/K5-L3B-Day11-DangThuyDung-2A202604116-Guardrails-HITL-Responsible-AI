@@ -1,5 +1,26 @@
 # Day 11 — Controlled Agent Security (2026)
 
+## Thông tin học viên
+
+| | |
+|---|---|
+| **Họ và tên** | Đặng Thùy Dung |
+| **MSSV** | 2A202604116 |
+| **Lớp** | K5-L3B |
+
+**Cách chạy nhanh** (từ gốc repo, sau khi tạo `.venv`, cài `requirements.txt` và điền `.env`):
+
+```powershell
+python src/main.py --part 2   # Checkpoint 2 — guardrails (in terminal)
+python src/main.py --part 3   # Checkpoint 3 — outputs/results.json, audit_log.json, metrics.json
+python src/main.py --part 4   # Checkpoint 4 — outputs/attack_results.json
+python scripts/grade.py --submission-dir . --out outputs/grade_report.json
+```
+
+Đặc tả chi tiết phần đã implement: [`SPEC.md`](SPEC.md).
+
+---
+
 > 👤 **Hình thức:** bài tập **cá nhân** (1 người / 1 MSSV).  
 > 🎯 **Mục tiêu:** đóng vai **Blue Team** để học cách xây Guardrails phòng thủ, rồi đóng vai **Red Team** để tấn công agent **Red** hoặc **Red Advance**.  
 > ✅ Làm theo **Checkpoint 1 → 5** trong [`CHECKPOINTS.md`](CHECKPOINTS.md) · nộp theo [`SUBMISSION.md`](SUBMISSION.md).
